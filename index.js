@@ -1,7 +1,9 @@
 let katzDeliLine = [];
 
 const takeANumber = (currentLine, name) => {
+  console.log(currentLine)
   currentLine.push(name)
+  console.log(currentLine)
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
@@ -17,6 +19,7 @@ const currentLine = (currentLine) => {
   if(!currentLine.length){
   return `The line is currently empty.`
 }else{
+
   let lineNameNum = [];
 
   for(let i = 0; i < currentLine.length; i++){
