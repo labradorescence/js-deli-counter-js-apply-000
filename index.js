@@ -9,7 +9,7 @@ let katzDeliLine = [];
 
 const takeANumber = (currentLine) => {
     let n = 0;
-    n += currentLine 
+    n += currentLine
 console.log(n)
   return `Wecole, your ticket number is ${n}.`
 }
