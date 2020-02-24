@@ -1,11 +1,19 @@
 let katzDeliLine = [];
 
-const takeANumber = (currentLine, name) => {
-  console.log('takeANumber console empty', currentLine)
-  currentLine.push(name)
-  console.log('takeANumber console name number', currentLine)
-  return `Welcome, ${name}. You are number ${currentLine.length} in line.`
+// const takeANumber = (currentLine, name) => {
+//   console.log('takeANumber console empty', currentLine)
+//   currentLine.push(name)
+//   console.log('takeANumber console name number', currentLine)
+//   return `Welcome, ${name}. You are number ${currentLine.length} in line.`
+// }
+
+const takeANumber = (currentLine) => {
+    let n = 0;
+    n += currentLine 
+console.log(n)
+  return `Wecole, your ticket number is ${n}.`
 }
+
 
 const nowServing = (currentLine) => {
   console.log('NOW SERVING currentLine length falsey', currentLine)
