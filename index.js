@@ -15,6 +15,11 @@ const nowServing = (currentLine) => {
       console.log('NOW SERVING currentLine length truthy', currentLine)
       return `Currently serving ${currentLine.shift()}.`
       console.log('currentLine.shift', currentLine.shift)
+//       pop(): Remove an item from the end of an array.
+//       push(): Add items to the end of an array.
+//       shift(): Remove an item from the beginning of an array.
+//      unshift(): Add items to the beginning of an array.
+
     }
   }
 
