@@ -6,12 +6,13 @@ let katzDeliLine = [];
 //   console.log('takeANumber console name number', currentLine)
 //   return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 // }
-
+  let n = 0
 const takeANumber = (currentLine) => {
-    let n = 0;
-    n += currentLine
-console.log(n)
-  return `Wecole, your ticket number is ${n}.`
+
+n+=1
+  currentline.push(n)
+
+  return `Welcome, your ticket number is ${n}.`
 }
 
 
