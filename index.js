@@ -8,9 +8,11 @@ const takeANumber = (currentLine, name) => {
 }
 
 const nowServing = (currentLine) => {
+  console.log('currentLine length falsey', currentLine)
   if(currentLine.length === 0){
     return "There is nobody waiting to be served!"
   }else{
+      console.log('currentLine length truthy', currentLine)
       return `Currently serving ${currentLine.shift()}.`
     }
   }
