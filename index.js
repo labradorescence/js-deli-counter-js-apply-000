@@ -14,6 +14,7 @@ const nowServing = (currentLine) => {
   }else{
       console.log('NOW SERVING currentLine length truthy', currentLine)
       return `Currently serving ${currentLine.shift()}.`
+      console.log('currentLine.shift', currentLine.shift)
     }
   }
 
