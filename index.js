@@ -10,7 +10,7 @@ let katzDeliLine = [];
 const takeANumber = (currentLine) => {
   n+=1
   currentline.push(n)
-  console.log(n)
+  console.log('takeANumber', n)
   return `Welcome, your ticket number is ${n}.`
 }
 
