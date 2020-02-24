@@ -1,9 +1,9 @@
 let katzDeliLine = [];
 
 const takeANumber = (currentLine, name) => {
-  console.log(currentLine)
+  console.log('takeANumber console empty', currentLine)
   currentLine.push(name)
-  console.log(currentLine)
+  console.log('takeANumber console name number', currentLine)
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
