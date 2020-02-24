@@ -8,13 +8,11 @@ let katzDeliLine = [];
 // }
   let n = 0
 const takeANumber = (currentLine) => {
-
-n+=1
+  n+=1
   currentline.push(n)
-
+  console.log(n)
   return `Welcome, your ticket number is ${n}.`
 }
-
 
 const nowServing = (currentLine) => {
   console.log('NOW SERVING currentLine length falsey', currentLine)
