@@ -29,7 +29,7 @@ const currentLine = (currentLine) => {
 }else{
 
   let lineNameNum = [];
-
+console.log('CURRENT LINE console: currentLine', currentLine)
   for(let i = 0; i < currentLine.length; i++){
     lineNameNum.push(`${i+1}. ${currentLine[i]}`)
   }
